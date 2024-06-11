@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  border: none;
+}
+
+#numbers {
+  display: flex;
+  width: 150px;
+  flex-wrap: wrap;
+}
+
+#methods {
+  display: flex;
+  width: 50px;
+  flex-wrap: wrap;
+}
