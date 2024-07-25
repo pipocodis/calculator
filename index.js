@@ -1,6 +1,6 @@
-let num1 = prompt("Give first number", 500);
-let num2 = prompt("Give second number", 200);
-let operator = prompt("Choose operator");
+let num1;
+let num2;
+let operator;
 
 function add(num1, num2) {
   return num1 + num2;
