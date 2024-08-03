@@ -67,6 +67,9 @@ buttons.forEach((button) => {
       let result = operate(finalNum1, operator, finalNum2);
       display.textContent += result;
       displayValue = display.textContent;
+    } else if (button.textContent === "C") {
+      display.textContent = "";
+      displayValue = display.textContent;
     }
   });
 });
